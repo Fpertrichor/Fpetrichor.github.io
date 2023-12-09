@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>获奖经历</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* body 样式 */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* 标题 */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/* 标题字体加大 */
+.header h1 {
+    font-size: 40px;
+}
+
+/* 导航 */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* 导航栏样式 */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* 右侧链接*/
+.navbar a.right {
+    float: right;
+}
+
+/* 鼠标移动到链接的颜色 */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* 列容器 */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* 创建两个列 */
+/* 边栏 */
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* 主要的内容区域 */
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* 测试图片 */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* 底部 */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 700px 时, 让两栏上下堆叠显示 */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 400px 时, 让导航栏目上下堆叠显示 */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+</style>
+</head>
+
+<body>
+    <style scoped>
+        table{
+          border-collapse: collapse;
+          margin: 0 auto;
+          text-align: center;
+        }
+        table td, table th{
+          border: 1px solid #cad9ea;
+          color: #666;
+          height: 30px;
+        }
+        table thead th{
+          background-color: #CCE8EB;
+          width: 700px;
+        }
+        table tr:nth-child(odd){
+          background: #fff;
+        }
+        table tr:nth-child(even){
+          background: #F5FAFA;
+        }
+        </style>
+
+
+<div class="header">
+  <h1>获奖经历</h1>
+  <p>Achievements</p>
+</div>
+
+<div class="navbar">
+    <a href="../index.html">首页</a>
+    <a href="../web/experience.html">个人经历</a>
+    <a href="../web/album.html">主要作品</a>
+    <a href="../web/achievement.html">获奖经历</a>
+    <a href="../web/comments.html">人物评价</a>
+  <a href="https://yangtianlszf.github.io/indexqs.html" class="right">返回</a>
+</div>
+
+<!-- <div class="row">
+  <div class="side">
+      <h2>关于王菲</h2>
+      <h5>照片:</h5>
+      <div class="fakeimg" style="height:200px;">这边插入图像</div>
+      <p>关于我的介绍..</p>
+      <h3>更多内容</h3>
+      <p>我的更多内容</p>
+      <div class="fakeimg" style="height:60px;">这边插入图像</div><br>
+      <div class="fakeimg" style="height:60px;">这边插入图像</div>
+  </div> -->
+  <div class="main">
+      <table>
+        <thead>
+        <tr>
+            <th>获奖时间</th><th>奖项名称</th>
+        </tr>
+    </thead>
+    <tr><th>2021</th><th>2021年度亚洲流行音乐大奖：年度TOP20金曲《如愿》</th></tr>
+    <thead><tr><th>2016</th><th>第23届东方风云榜：十大金曲《清风徐来》</th></tr></thead>
+    <tr><th>2015</th><th>第5届全球流行音乐金榜：年度二十大金曲&年度最佳电影歌曲&加拿大中文台年度点播冠军奖《匆匆那年》</th></tr>
+    <thead><tr><th>2015</th><th>	第22届东方风云榜：动感101年度金曲奖《匆匆那年》</th></tr></thead>
+    <tr><th>2014</th><th>第4届全球流行音乐金榜：年度二十大金曲&年度最佳电影歌曲奖《致青春》</th></tr>
+    <thead><tr><th>2014</th><th>第11届CASH金帆音乐奖：最佳合唱演绎《因为爱情》</th></tr></thead>
+    <tr><th>2013</th><th>第9届中国金唱片奖：金曲奖《致青春》</th></tr>
+    <thead><tr><th>2012</th><th>第2届全球流行音乐金榜：年度二十大金曲、加拿大中文电台年度点播冠军歌曲奖《因为爱情》</th></tr></thead>
+    <tr><th> 2012</th><th> 第10届MusicRadio中国TOP排行榜：音乐之声点播冠军奖《因为爱情》</th></tr>
+    <thead><tr><th>2012 </th><th> 第4届华语金曲奖：年度十大金曲、年度最佳国语歌曲《因为爱情》</th></tr></thead>
+    <tr><th> 2011</th><th> 香港新城电台新城国语力颁奖礼：歌曲奖《因为爱情》</th></tr>
+    <thead><tr><th> 2010</th><th> 第10届音乐风云榜：十年港台地区最具影响力音乐人</th></tr></thead>
+    <tr><th>2009 </th><th> 中华音乐人交流协会：流行音乐30年200张最佳专辑（6张专辑入围）</th></tr>
+    <thead><tr><th>2008 </th><th>《南方周末》改革开放三十年之十大歌曲《天空》 </th></tr></thead>
+    <tr><th> 2005</th><th>IFPI香港唱片销量大奖：十大销量国语唱片《菲比寻常》、十大销量广东唱片《情菲得意》、十大销量本地歌手 </th></tr>
+    <thead><tr><th> 2004</th><th>第15届台湾金曲奖：最佳作词&最佳作曲&最佳音乐录影带《不留》、最佳流行音乐演唱专辑&最佳专辑制作《将爱》 </th></tr></thead>
+    <tr><th> 2004</th><th>第4届音乐风云榜：最受欢迎女歌手、年度港台及海外华人最佳女歌手、港台十大金曲《将爱》 </th></tr>
+    <thead><tr><th>2004 </th><th>第4届华语音乐传媒大奖：最佳女歌手、年度十大唱片《将爱》 、十大华语歌曲《乘客》 </th></tr></thead>
+    <tr><th> 2004</th><th>第11届中国歌曲排行榜：最受欢迎女歌手、华语乐坛杰出成就奖、最受欢迎歌曲《旋木》 </th></tr>
+    <thead><tr><th>2004 </th><th>第11届新加坡金曲奖：最佳演绎女歌手、亚洲传媒大奖、荣誉大奖流行音乐大奖 </th></tr></thead>
+    <tr><th>2004 </th><th>第6届CCTV-MTV音乐盛典：亚洲地区最受欢迎杰出歌手 </th></tr>
+    <thead><tr><th>2004 </th><th>第10届全球华语音乐榜中榜：十全十美奖 </th></tr></thead>
+    <tr>
+        <th>2004</th><th>第2届MusicRadio中国TOP排行榜：港台年度十大金曲《将爱》</th>
+    </tr>
+    <thead>
+        <tr><th>2003</th><th>第4届中国金唱片奖：港台女艺人奖</th></tr>
+    </thead>
+    <tr><th>2001</th><th>第34届十大中文金曲颁奖礼：全国最受欢迎女歌手金奖、十大优秀流行歌手</th></tr>
+    <thead><tr><th>1999</th><th>TVB8金曲榜颁奖典礼：最佳女歌手</th></tr></thead>
+    <tr><th>1998</th><th>第5届新加坡金曲奖：最受欢迎女歌手奖</th></tr>
+    <thead><tr><th>1996</th><th>美国BILLBOARD流行榜：华人世界最受欢迎女歌手</th></tr></thead>
+    <tr><th>1994</th><th>第7届斯德哥尔摩电影节最佳女主角奖</th></tr>
+    <thead><tr><th>1990</th><th>IFPI香港唱片销量大奖：本地金唱片《王靖雯》</th></tr></thead>
+</table>
+</div>
+
+
+</body>
+</html>

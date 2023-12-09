@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>人物评价</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* body 样式 */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* 标题 */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/* 标题字体加大 */
+.header h1 {
+    font-size: 40px;
+}
+
+/* 导航 */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* 导航栏样式 */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* 右侧链接*/
+.navbar a.right {
+    float: right;
+}
+
+/* 鼠标移动到链接的颜色 */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* 列容器 */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* 创建两个列 */
+/* 边栏 */
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* 主要的内容区域 */
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/* 测试图片 */
+.fakeimg {
+    background-color: #b8e6d5;
+    width: 100%;
+    padding: 20px;
+}
+
+/* 底部 */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 700px 时, 让两栏上下堆叠显示 */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 400px 时, 让导航栏目上下堆叠显示 */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>人物评价</h1>
+  <p>Comments</p>
+</div>
+
+<div class="navbar">
+    <a href="../index.html">首页</a>
+    <a href="experience.html">个人经历</a>
+    <a href="album.html">主要作品</a>
+    <a href="achievement.html">获奖经历</a>
+    <a href="web/comments.html">人物评价</a>
+  <a href="https://yangtianlszf.github.io/indexqs.html" class="right">返回</a>
+</div>
+
+<!-- <div class="row">
+  <div class="side">
+      <h2>关于王菲</h2>
+      <h5>照片:</h5>
+      <div class="fakeimg" style="height:200px;">这边插入图像</div>
+      <p>关于我的介绍..</p>
+      <h3>更多内容</h3>
+      <p>我的更多内容</p>
+      <div class="fakeimg" style="height:60px;">这边插入图像</div><br>
+      <div class="fakeimg" style="height:60px;">这边插入图像</div>
+  </div> -->
+  <div class="main">
+      <h2 style="padding-top: 60px;">《三联生活周刊》、南海网、新浪网、金羊网评：</h2>
+      <h3 class="fakeimg" style="height: 250px;">作为华语歌坛具有标志性的人物之一，王菲在音乐方面做出了卓越的贡献。她将另类女声、Brit Pop等元素成功地植入到自己的作品中，在一定程度上颠覆了香港流行音乐的秩序。此后，她又凭借《闷》等作品为英式吉他流行乐和电子流行乐打开了销路，并对广大受众的听歌口味起到了重要的影响。王菲获得听众认可的原因还在于她集不同地区的审美于一身。由于受到欧美、日本流行文化的影响，因此她可以很敏锐地捕捉到流行文化的时尚元素。她在香港发展的时候用时尚手段弥补与香港艺人之间的落差。当她把目光转回中国内地后，她身上所具备的精致、时髦以及与中国内地语言文化相通的气质，都让她更容易在中国内地获得认同。</h3>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <h2 style="padding-top: 60px;">南方网、腾讯网、中国新闻网、金鹰网、《法制晚报》评：</h2>
+      <h3 class="fakeimg" style="height: 250px;">王菲以独特的嗓音和“菲式唱法”在亚洲和华人世界获得很高的知名度。无论王菲演绎何种类型的歌曲，都会有着与众不同的味道。她的曲风在另类与流行之间游走，演唱的《红豆》、《人间》等歌曲广为流传。她的音质、唱功均属一流，拥有华语乐坛罕见的美嗓，声音空灵飘渺又不失光泽。她的真声具有美声歌手嗓音的某些特质，不仅通透明亮，而且高音铿锵有力、低音自然柔美，不需要用太多的气息和共鸣即可演唱出亮丽饱满的音色。她在演唱技巧上也与时俱进，把对流行音乐的敏锐触觉和天赋悟性巧妙的蕴藏于自然平淡之中。她在唱歌时讲究在放松的状态下演唱，不仅呼吸方法运用的很自然，而且断句时不露痕迹。在她的演唱中，可以找得到很多演唱技巧的理想效果，比如真假换声点的模糊、共鸣与气声的融合等等。</h3>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <h2 style="padding-top: 60px;">《东南快报》、《青年报》、中国网评：</h2>
+      <h3 class="fakeimg" style="height: 250px;">王菲很有主见，具有独立的个性。她不会激烈的否定别人，但也不会轻易放弃自己的观点。她的性格耿直，做事我行我素。她有坚定的原则，喜欢默默地做自己的事情，并且不介意他人的目光。在她鲜明的个性中，既有率直的理性，也有真实的感性。她的思想很深，一件事会在心里搁置到通透，所以她做事简约而准确，并且很有分寸。她外表不冷不热，但内心对于自己喜好的东西会一往情深，并且保持持久的兴趣。</h5>
+</div>
+
+
+</body>
+</html>
